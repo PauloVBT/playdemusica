@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>playdemusica</title>
+</head>
+<body>
+    <img src="img/paulo.jpg">
+    <div class="descrição">
+        <h2>nome da musica</h2>
+        <i>artista</i>
+    </div>
+    <div class="duração">
+        <div class="barra">
+            <progress value="0.0" max="1"></progress>
+            <div class="ponto"></div>
+        </div>
+        <div class="tempo">
+            <p class="inicio">0:00</p>
+            <p class="fim">3:40</p>
+        </div>
+    </div>
+    <div class="play">
+        <span class="iconify setas anterior" data-icon="mdi-skip-previous"></span>
+        <span class="iconify botão-play" data-icon="mdi-play-box"></span>
+        <span class="iconify botão-pause" data-icon="mdi-pause-box"></span>
+        <span class="iconify setas proximo" data-icon="mdi-skip-next"></span>   
+    </div>
+    <audio src="music/Liberto.m4a"></audio>
+
+    
+    <script src="//code.iconify.design/1/1.0.6/iconify.min.js"></script>
+    <script src="script/script.js"></script>
+</body>
+</html>
